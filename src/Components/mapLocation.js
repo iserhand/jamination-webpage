@@ -2,6 +2,7 @@ import React from 'react';
 import { CircularProgress } from '@mui/material';
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 function MapLocation() {
+	alert(process.env.GOOGLE_MAPS_API_KEY);
 	const { isLoaded } = useLoadScript({
 		googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
 	});
