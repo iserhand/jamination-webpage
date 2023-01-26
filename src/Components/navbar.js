@@ -1,29 +1,33 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import './styles.css';
 function navbar() {
 	return (
 		<>
 			<div className='navContainer'>
 				<div className='navBar'>
-					<Link className='navItem' to='/'>
+					<NavLink className='navItem' activeClass='active' smooth spy to='/'>
 						ANA SAYFA
-					</Link>
-					<Link className='navItem' to='/org'>
+					</NavLink>
+
+					<NavLink className='navItem' activeClass='active' to='/org#' smooth spy>
 						DÜZENLEYENLER
-					</Link>
-					<Link className='navItem' to='/sponsor'>
+					</NavLink>
+					<NavLink className='navItem' activeClass='active' to='/sponsor#' smooth spy>
 						SPONSORLAR
-					</Link>
-					<Link className='navItem' to='/calendar'>
+					</NavLink>
+					<NavLink className='navItem' activeClass='active' to='/calendar' smooth spy>
 						ETKİNLİK TAKVİMİ
-					</Link>
-					<Link className='navItem' to='/faq'>
+					</NavLink>
+					<NavLink className='navItem' activeClass='active' to='/faq' smooth spy>
 						SSS
-					</Link>
-					<Link className='navItem' to='/contact'>
-						İLETİŞİM VE ULAŞIM
-					</Link>
+					</NavLink>
+					<NavLink className='navItem' activeClass='active' to='/contact' smooth spy>
+						İLETİŞİM
+					</NavLink>
+					<NavLink className='navItem' activeClass='active' to='/location' smooth spy>
+						ULAŞIM
+					</NavLink>
 				</div>
 			</div>
 			<Outlet></Outlet>

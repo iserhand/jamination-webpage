@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 .navContainer{
+    margin-top: 20px;
     top: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
-    position: sticky;
+    /*position: sticky;*/
+}
+.active{
+    text-shadow: 2px 2px 2px grey;
 }
 .navBar{
+    margin-left: 25%;
+    margin-right: 25%;
     display: flex;
     justify-content: space-between;
 }
 .navItem{
-    text-decoration: none;
+    text-decoration:none;
+    color: #1F2224;
     font-family: 'Amatic SC';
     font-style: "normal";
     font-weight: 700;
@@ -47,6 +52,22 @@ h1{
     line-height: 120%;
     color: #1F2224;
 }
+h2{
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1F2224;
+}
+h3{
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    color: #1F2224;
+}
 .text{
     margin-right: 8vw;
     font-family: 'Josefin Sans';
@@ -57,13 +78,48 @@ h1{
     color: #1F2224;
 }
 .pillBtn{
+
+    font-size: large;
+    padding: 24px;
+    gap: 10px;
     border-radius: 100px;
     background-color: #DD6843;
-    color:white
+    color:white;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    border: none;
+    text-align: center;
 }
 .pillBtnReversed{
+    font-size: large;
+    padding: 24px;
+    gap: 10px;
     border-radius: 100px;
     background-color: white;
     color:#DD6843;
     border: 2px solid #DD6843;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
+.pillBtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.pillBtnReversed:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+.gridContainer{
+    align-self: center;
+    width: 60%;
+    margin-bottom: 5%;
+}
+

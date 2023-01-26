@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import CountdownPill from './countdownPill';
 function Countdown() {
-	const jaminationDate = new Date(2023, 0, 28);
+	const jaminationDate = new Date(2023, 3, 3, 15);
 	var newDate = new Date(Date.now());
 	var diff = new Date(jaminationDate - newDate);
 	const [timer, setTimer] = useState({

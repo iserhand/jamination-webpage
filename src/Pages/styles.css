@@ -1,5 +1,21 @@
 .pageContainer{
     margin-right: 10%;
     margin-left: 10%;
+    margin-bottom: 5%;
+}
+.homeContainer{
+    margin-right: 10%;
+    margin-left: 10%;
     margin-top: 5%;
+    margin-bottom: 5%;
+}
+.homeButtonGroup{
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.errorContainer{
+    margin-top: 15%;
+    text-align: center;
 }
