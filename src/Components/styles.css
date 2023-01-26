@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+.navContainer{
+    top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: sticky;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+}
+.navItem{
+    text-decoration: none;
+    font-family: 'Amatic SC';
+    font-style: "normal";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+.navItem:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.countdownContainer{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+}
+.countdownItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    width: 80px;
+    height: 53px;
+    color: white;
+    background: #DD6843;
+    border-radius: 13px;
+}
+h1{
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120%;
+    color: #1F2224;
+}
+.text{
+    margin-right: 8vw;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 140%;
+    color: #1F2224;
+}
+.pillBtn{
+    border-radius: 100px;
+    background-color: #DD6843;
+    color:white
+}
+.pillBtnReversed{
+    border-radius: 100px;
+    background-color: white;
+    color:#DD6843;
+    border: 2px solid #DD6843;
+}
