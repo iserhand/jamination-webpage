@@ -13,9 +13,9 @@ function Location() {
 					</Grid>
 					<Grid item sm={12}>
 						<h2>Harita Konumu</h2>
-						<MapLocation></MapLocation>
 					</Grid>
 				</Grid>
+				<MapLocation></MapLocation>
 			</div>
 		</div>
 	);

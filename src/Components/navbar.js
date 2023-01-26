@@ -6,26 +6,50 @@ function navbar() {
 		<>
 			<div className='navContainer'>
 				<div className='navBar'>
-					<NavLink className='navItem' activeClass='active' smooth spy to='/'>
+					<NavLink className='navItem' active='active' smooth='true' spy='true' to='/'>
 						ANA SAYFA
 					</NavLink>
 
-					<NavLink className='navItem' activeClass='active' to='/org#' smooth spy>
+					<NavLink className='navItem' active='active' to='/org' smooth='true' spy='true'>
 						DÜZENLEYENLER
 					</NavLink>
-					<NavLink className='navItem' activeClass='active' to='/sponsor#' smooth spy>
+					<NavLink
+						className='navItem'
+						active='active'
+						to='/sponsor'
+						smooth='true'
+						spy='true'
+					>
 						SPONSORLAR
 					</NavLink>
-					<NavLink className='navItem' activeClass='active' to='/calendar' smooth spy>
+					<NavLink
+						className='navItem'
+						active='active'
+						to='/calendar'
+						smooth='true'
+						spy='true'
+					>
 						ETKİNLİK TAKVİMİ
 					</NavLink>
-					<NavLink className='navItem' activeClass='active' to='/faq' smooth spy>
+					<NavLink className='navItem' active='active' to='/faq' smooth='true' spy='true'>
 						SSS
 					</NavLink>
-					<NavLink className='navItem' activeClass='active' to='/contact' smooth spy>
+					<NavLink
+						className='navItem'
+						active='active'
+						to='/contact'
+						smooth='true'
+						spy='true'
+					>
 						İLETİŞİM
 					</NavLink>
-					<NavLink className='navItem' activeClass='active' to='/location' smooth spy>
+					<NavLink
+						className='navItem'
+						active='active'
+						to='/location'
+						smooth='true'
+						spy='true'
+					>
 						ULAŞIM
 					</NavLink>
 				</div>
