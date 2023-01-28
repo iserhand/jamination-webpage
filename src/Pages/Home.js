@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import './styles.css';
 import CountDown from '../Components/countdown';
 import Description from '../Components/description';
-import PillButton from '../Components/pillButton';
+import { Grid } from '@mui/material';
 function Home() {
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -10,13 +10,12 @@ function Home() {
 	});
 	return (
 		<div className='homeContainer'>
-			Jamination 6 başlıyor;
-			<CountDown></CountDown>
-			<Description></Description>
-			<div className='homeButtonGroup'>
-				<PillButton text='Hemen Başvur' reverseColor={false}></PillButton>
-				<PillButton text='Sorum Var' reverseColor={true}></PillButton>
-			</div>
+			<Grid container>
+				<Grid xs={12} sm={6} item>
+					<CountDown></CountDown>
+				</Grid>
+				<Description></Description>
+			</Grid>
 		</div>
 	);
 }

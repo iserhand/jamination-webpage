@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 .navContainer{
-    margin-top: 20px;
-    top: 20px;
-    /*position: sticky;*/
+    padding: 1vh;
+    border-bottom: 0.15em solid black;
 }
 .active{
-    text-shadow: 2px 2px 2px grey;
+    text-shadow: 0.2px 2px 2px grey;
 }
 .navBar{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
     justify-content: space-between;
+    
 }
 .navItem{
     text-decoration:none;
@@ -19,8 +19,11 @@
     font-family: 'Amatic SC';
     font-style: "normal";
     font-weight: 700;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 20px;
+    border: 2px solid rgb(32, 85, 85);
+    border-radius: 99px;
+    padding: 15px;
 }
 .navItem:hover{
     transform: scale(1.1);
@@ -30,16 +33,16 @@
     margin-top: 15px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    gap: 8px;
+    align-items: center;
+    gap: 15px;
 }
 .countdownItem{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4px;
-    width: 80px;
-    height: 53px;
+    padding: 7px;
+    width: 85px;
+    height: 60px;
     color: white;
     background: #DD6843;
     border-radius: 13px;
@@ -69,7 +72,6 @@ h3{
     color: #1F2224;
 }
 .text{
-    margin-right: 8vw;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 300;
@@ -78,9 +80,10 @@ h3{
     color: #1F2224;
 }
 .pillBtn{
-
     font-size: large;
-    padding: 24px;
+    padding: 2.5vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
     gap: 10px;
     border-radius: 100px;
     background-color: #DD6843;
@@ -93,7 +96,9 @@ h3{
 }
 .pillBtnReversed{
     font-size: large;
-    padding: 24px;
+    padding: 2.5vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
     gap: 10px;
     border-radius: 100px;
     background-color: white;
@@ -126,4 +131,35 @@ h3{
     width: 100%;
     height: 100vh;
 }
-
+.dateText{
+    font-size:x-large;
+}
+.description{
+    margin-right: 8vw;
+    align-content: center;
+}
+.countdownWrapper{
+    justify-content: center;
+    align-content: center;
+}
+.faqContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faqTextContainer{
+    display: flex;
+    align-items: center;
+}
+.faqHeader{
+    font-family: "Amatic SC";
+    font-size: xx-large;
+    font-weight: 700;
+}
+.faqText{
+    color: #1F2224;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    font-size: x-large;
+}

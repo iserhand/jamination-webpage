@@ -3,7 +3,16 @@ import React from 'react';
 function sponsorBox(props) {
 	return (
 		<div>
-			<img src='https://placehold.jp/100x100.png' alt='img'></img>
+			<img
+				src={props.source}
+				alt='img'
+				onError={({ currentTarget }) => {
+					currentTarget.onerror = null; // prevents looping
+					currentTarget.src = 'https://placehold.jp/150x150.png';
+				}}
+				width={150}
+				height={150}
+			></img>
 		</div>
 	);
 }

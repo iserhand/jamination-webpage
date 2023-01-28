@@ -8,22 +8,22 @@ function ClubGrid() {
 			<div className='gridContainer'>
 				<Grid container>
 					<Grid sm={4} item>
-						<ClubBox text='İTU OTG'></ClubBox>
+						<ClubBox text='İTU OTG' source={'otg_logo.png'}></ClubBox>
 					</Grid>
 					<Grid sm={4} item>
-						<ClubBox text='METU GATES'></ClubBox>
+						<ClubBox text='METU GATES' source={'metu_logo.png'}></ClubBox>
 					</Grid>
 					<Grid sm={4} item>
-						<ClubBox text='DEU POG'></ClubBox>
+						<ClubBox text='DEU POG' source={'pog_logo.png'}></ClubBox>
 					</Grid>
 					<Grid sm={4} item>
-						<ClubBox text='Marmara  OGK'></ClubBox>
+						<ClubBox text='Marmara  OGK' source={'ogk_logo.png'}></ClubBox>
 					</Grid>
 					<Grid sm={4} item>
-						<ClubBox text='Beikoz'></ClubBox>
+						<ClubBox text='Beikoz' source={'beikoz_logo.png'}></ClubBox>
 					</Grid>
 					<Grid sm={4} item>
-						<ClubBox text='ÜNOG'></ClubBox>
+						<ClubBox text='ÜNOG' source={'unog_logo.png'}></ClubBox>
 					</Grid>
 				</Grid>
 			</div>

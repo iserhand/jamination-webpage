@@ -1,8 +1,9 @@
 import Grid from '@mui/material/Grid';
+import PillButton from './pillButton';
 function Description() {
 	return (
 		<Grid container>
-			<Grid item xs={6}>
+			<Grid item xs={12} sm={6}>
 				<div className='description'>
 					<h1>Jamination 6</h1>
 					<div className='text'>
@@ -13,9 +14,15 @@ function Description() {
 						3, 4, 5 Mart tarihlerinde gerçekleşecektir. 48 saat boyunca oyun geliştirip
 						eğleneceğimiz bu etkinliğe tüm oyun geliştiricileri bekliyoruz!
 					</div>
+					<div className='homeButtonGroup'>
+						<PillButton text='Hemen Başvur' reverseColor={false}></PillButton>
+						<PillButton text='Sorum Var' reverseColor={true}></PillButton>
+					</div>
 				</div>
 			</Grid>
-			<Grid item xs={6} bgcolor='#D9D9D9'></Grid>
+			<Grid item xs={12} sm={6} bgcolor='#D9D9D9'>
+				asdasd
+			</Grid>
 		</Grid>
 	);
 }
