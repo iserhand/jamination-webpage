@@ -1,6 +1,8 @@
 import React from 'react';
 import SponsorBox from './sponsorBox';
 import Grid from '@mui/material/Grid';
+import './styles.css';
+
 function sponsorGrid() {
 	return (
 		<div className='itemContainer'>
@@ -9,7 +11,7 @@ function sponsorGrid() {
 				<h3>ELMAS SPONSOR</h3>
 				<SponsorBox source={'questionmark.png'}></SponsorBox>
 				<h3>ALTIN SPONSORLAR</h3>
-				<Grid container>
+				<Grid container justifyContent={'center'}>
 					<Grid sm={4} item>
 						<SponsorBox source={'questionmark.png'}></SponsorBox>
 					</Grid>
@@ -21,7 +23,7 @@ function sponsorGrid() {
 					</Grid>
 				</Grid>
 				<h3>GÜMÜŞ SPONSORLAR</h3>
-				<Grid container>
+				<Grid container justifyContent={'center'}>
 					<Grid sm={4} item>
 						<SponsorBox source={'questionmark.png'}></SponsorBox>
 					</Grid>
@@ -33,7 +35,7 @@ function sponsorGrid() {
 					</Grid>
 				</Grid>
 				<h3>BRONZ SPONSORLAR</h3>
-				<Grid container>
+				<Grid container justifyContent={'center'}>
 					<Grid sm={4} item>
 						<SponsorBox source={'questionmark.png'}></SponsorBox>
 					</Grid>

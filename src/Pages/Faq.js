@@ -9,8 +9,8 @@ function Faq() {
 	return (
 		<div className='pageContainer'>
 			<div className='itemContainer'>
-				<Grid container>
-					<Grid item sm={2}>
+				<Grid container justifyContent={'center'}>
+					<Grid item sm={12} md={2}>
 						<img src='kurbaga_deu.png' alt='Karakter' width={250}></img>
 					</Grid>
 					<Grid item sm={8}>

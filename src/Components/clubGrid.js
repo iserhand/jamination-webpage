@@ -1,12 +1,14 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import ClubBox from './clubBox';
+import './styles.css';
+
 function ClubGrid() {
 	return (
 		<div className='itemContainer'>
 			<h2>Düzenleyenler</h2>
 			<div className='gridContainer'>
-				<Grid container>
+				<Grid container justifyContent={'center'}>
 					<Grid sm={4} item>
 						<ClubBox text='İTU OTG' source={'otg_logo.png'}></ClubBox>
 					</Grid>

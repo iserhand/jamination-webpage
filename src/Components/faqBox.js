@@ -1,4 +1,6 @@
 import React from 'react';
+import './styles.css';
+
 function FaqBox(props) {
 	return (
 		<div className='faqContainer'>

@@ -1,19 +1,21 @@
 import React from 'react';
+import './styles.css';
 
 function ClubBox(props) {
 	return (
 		<div>
 			<h3>{props.text}</h3>
-			<img
-				src={props.source}
-				alt={props.text}
-				width={150}
-				height={150}
-				onError={({ currentTarget }) => {
-					currentTarget.onerror = null; // prevents looping
-					currentTarget.src = 'https://placehold.jp/150x150.png';
-				}}
-			></img>
+			<div>
+				<img
+					width={150}
+					src={props.source}
+					alt={props.text}
+					onError={({ currentTarget }) => {
+						currentTarget.onerror = null; // prevents looping
+						currentTarget.src = 'https://placehold.jp/150x150.png';
+					}}
+				></img>
+			</div>
 		</div>
 	);
 }

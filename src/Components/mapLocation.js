@@ -1,6 +1,8 @@
 import React from 'react';
 import { CircularProgress } from '@mui/material';
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
+import './styles.css';
+
 function MapLocation() {
 	const { isLoaded } = useLoadScript({
 		googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,

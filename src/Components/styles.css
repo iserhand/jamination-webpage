@@ -1,165 +1,285 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
-.navContainer{
-    padding: 1vh;
-    border-bottom: 0.15em solid black;
+
+.navContainerMobile {
+	display: none;
 }
-.active{
-    text-shadow: 0.2px 2px 2px grey;
+.toggleContainer {
+	justify-content: center;
+	width: 100%;
+	display: flex;
 }
-.navBar{
-    margin-left: 20%;
-    margin-right: 20%;
-    display: flex;
-    justify-content: space-between;
-    
+.toggleButton {
+	background-color: transparent;
+	border: none;
+	display: none;
 }
-.navItem{
-    text-decoration:none;
-    color: #1F2224;
-    font-family: 'Amatic SC';
-    font-style: "normal";
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 20px;
-    border: 2px solid rgb(32, 85, 85);
-    border-radius: 99px;
-    padding: 15px;
+.navContainer {
+	display: flex;
+	justify-content: center;
+	padding: 1vw;
+	border-bottom: 0.15em solid black;
 }
-.navItem:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+.active {
+	text-shadow: 0.2px 2px 2px grey;
 }
-.countdownContainer{
-    margin-top: 15px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
+.navBar {
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
 }
-.countdownItem{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 7px;
-    width: 85px;
-    height: 60px;
-    color: white;
-    background: #DD6843;
-    border-radius: 13px;
+.navItem {
+	text-decoration: none;
+	color: #1f2224;
+	font-family: 'Amatic SC';
+	font-style: 'normal';
+	font-weight: 700;
+	font-size: x-large;
+	line-height: 20px;
+	border: 2px solid rgb(32, 85, 85);
+	border-radius: 99px;
+	padding: 15px;
+	text-align: center;
 }
-h1{
-    font-family: 'Amatic SC';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 120%;
-    color: #1F2224;
+.navItem:hover {
+	transform: scale(1.1);
+	cursor: pointer;
 }
-h2{
-    font-family: 'Amatic SC';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 120%;
-    color: #1F2224;
+.countdownContainer {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 15px;
 }
-h3{
-    font-family: 'Amatic SC';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 120%;
-    color: #1F2224;
+.countdownItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 7px;
+	width: 85px;
+	height: 60px;
+	color: white;
+	background: #dd6843;
+	border-radius: 13px;
 }
-.text{
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 23px;
-    line-height: 140%;
-    color: #1F2224;
+h1 {
+	font-family: 'Amatic SC';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 120%;
+	color: #1f2224;
 }
-.pillBtn{
-    font-size: large;
-    padding: 2.5vh;
-    padding-left: 4vh;
-    padding-right: 4vh;
-    gap: 10px;
-    border-radius: 100px;
-    background-color: #DD6843;
-    color:white;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: capitalize;
-    border: none;
-    text-align: center;
+h2 {
+	font-family: 'Amatic SC';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 120%;
+	color: #1f2224;
 }
-.pillBtnReversed{
-    font-size: large;
-    padding: 2.5vh;
-    padding-left: 4vh;
-    padding-right: 4vh;
-    gap: 10px;
-    border-radius: 100px;
-    background-color: white;
-    color:#DD6843;
-    border: 2px solid #DD6843;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+h3 {
+	font-family: 'Amatic SC';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 120%;
+	color: #1f2224;
 }
-.pillBtn:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+.text {
+	font-family: 'Josefin Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 23px;
+	line-height: 140%;
+	color: #1f2224;
 }
-.pillBtnReversed:hover{
-    transform: scale(1.1);
-    cursor: pointer;
+.pillBtn {
+	font-size: large;
+	padding: 2.5vh;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	gap: 10px;
+	border-radius: 100px;
+	background-color: #dd6843;
+	color: white;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: capitalize;
+	border: none;
+	text-align: center;
 }
-.itemContainer{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: center;
+.pillBtnReversed {
+	font-size: large;
+	padding: 2.5vh;
+	padding-left: 4vh;
+	padding-right: 4vh;
+	gap: 10px;
+	border-radius: 100px;
+	background-color: white;
+	color: #dd6843;
+	border: 2px solid #dd6843;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
 }
-.gridContainer{
-    align-self: center;
-    width: 60%;
-    margin-bottom: 5%;
+.pillBtn:hover {
+	transform: scale(1.1);
+	cursor: pointer;
 }
-.mapContainer{
-    width: 100%;
-    height: 100vh;
+.pillBtnReversed:hover {
+	transform: scale(1.1);
+	cursor: pointer;
 }
-.dateText{
-    font-size:x-large;
+.itemContainer {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
 }
-.description{
-    margin-right: 8vw;
-    align-content: center;
+.gridContainer {
+	align-self: center;
+	width: 60%;
+	margin-bottom: 5%;
 }
-.countdownWrapper{
-    justify-content: center;
-    align-content: center;
+.mapContainer {
+	width: 100%;
+	height: 100vh;
 }
-.faqContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.dateText {
+	font-size: x-large;
 }
-.faqTextContainer{
-    display: flex;
-    align-items: center;
+.description {
+	margin-right: 8vw;
+	align-content: center;
 }
-.faqHeader{
-    font-family: "Amatic SC";
-    font-size: xx-large;
-    font-weight: 700;
+.countdownWrapper {
+	justify-content: center;
+	align-content: center;
 }
-.faqText{
-    color: #1F2224;
-    font-family: 'Josefin Sans';
-    font-weight: 300;
-    font-size: x-large;
+.faqContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.faqTextContainer {
+	display: flex;
+	align-items: center;
+}
+.faqHeader {
+	font-family: 'Amatic SC';
+	font-size: xx-large;
+	font-weight: 700;
+}
+.faqText {
+	color: #1f2224;
+	font-family: 'Josefin Sans';
+	font-weight: 300;
+	font-size: x-large;
+}
+@media screen and (max-width: 780px) {
+	.navBarMobile {
+		animation: growDown 300ms ease-in-out forwards;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.navBarMobile .navItem {
+		margin-top: 10px;
+	}
+	.navContainerMobile {
+		transform-origin: top center;
+		justify-content: center;
+		display: flex;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+		width: 100vw;
+		background-color: #dd6843;
+		padding: 0;
+	}
+	.toggleButton {
+		margin: 10px;
+		display: flex;
+	}
+	.navContainer {
+		display: none;
+	}
+}
+@keyframes growDown {
+	0% {
+		transform: scaleY(0);
+	}
+	80% {
+		transform: scaleY(1.1);
+	}
+	100% {
+		transform: scaleY(1);
+	}
+}
+
+.gg-push-chevron-down {
+	box-sizing: border-box;
+	position: relative;
+	display: block;
+	transform: scale(var(--ggs, 1));
+	width: 22px;
+	height: 22px;
+	border: 2px solid transparent;
+	border-radius: 100px;
+}
+.gg-push-chevron-down::after,
+.gg-push-chevron-down::before {
+	content: '';
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	border-bottom: 2px solid;
+}
+.gg-push-chevron-down::before {
+	bottom: 0;
+	width: 14px;
+	height: 2px;
+	left: 2px;
+}
+.gg-push-chevron-down::after {
+	width: 10px;
+	height: 10px;
+	border-right: 2px solid;
+	transform: rotate(45deg);
+	left: 4px;
+	top: 2px;
+}
+.gg-push-chevron-up {
+	box-sizing: border-box;
+	position: relative;
+	display: block;
+	transform: scale(var(--ggs, 1));
+	width: 22px;
+	height: 22px;
+	border: 2px solid transparent;
+	border-radius: 100px;
+}
+.gg-push-chevron-up::after,
+.gg-push-chevron-up::before {
+	content: '';
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	border-top: 2px solid;
+}
+.gg-push-chevron-up::before {
+	top: 0;
+	width: 14px;
+	height: 2px;
+	left: 2px;
+}
+.gg-push-chevron-up::after {
+	width: 10px;
+	height: 10px;
+	border-right: 2px solid;
+	transform: rotate(-45deg);
+	left: 4px;
+	bottom: 2px;
 }

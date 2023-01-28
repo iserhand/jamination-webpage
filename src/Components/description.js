@@ -1,5 +1,7 @@
 import Grid from '@mui/material/Grid';
 import PillButton from './pillButton';
+import './styles.css';
+
 function Description() {
 	return (
 		<Grid container>
