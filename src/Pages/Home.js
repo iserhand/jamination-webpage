@@ -11,7 +11,7 @@ function Home() {
 	return (
 		<div className='homeContainer'>
 			<Grid container>
-				<Grid xs={12} sm={6} item>
+				<Grid xs={12} sm={12} item>
 					<CountDown></CountDown>
 				</Grid>
 				<Description></Description>

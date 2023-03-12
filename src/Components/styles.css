@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
-.afisBox {
+.homeButtonGroup {
+	margin-top: 15%;
+}
+.afisImg {
 	border: 4px solid white;
 	border-radius: 10%;
+	max-width: 90%;
+	max-height: 90%;
+}
+.afisBox {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
 }
 .metuBox {
 	margin-top: 60px;
@@ -241,8 +251,10 @@ h3 {
 	font-size: x-large;
 }
 .description {
-	margin-right: 8vw;
+	display: inline-block;
+	vertical-align: top;
 	align-content: center;
+	margin-right: 8vw;
 }
 .countdownWrapper {
 	justify-content: center;
@@ -270,6 +282,12 @@ h3 {
 	font-size: x-large;
 }
 @media screen and (max-width: 780px) {
+	.afisImg {
+		border: 4px solid white;
+		border-radius: 10%;
+		max-width: 90%;
+		max-height: 90%;
+	}
 	.navBarMobile {
 		animation: growDown 300ms ease-in-out forwards;
 		display: flex;
