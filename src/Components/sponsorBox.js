@@ -5,6 +5,7 @@ function sponsorBox(props) {
 	return (
 		<div>
 			<img
+				className='sponsorImg'
 				src={props.source}
 				alt='img'
 				onError={({ currentTarget }) => {

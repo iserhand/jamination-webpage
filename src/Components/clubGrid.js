@@ -7,6 +7,7 @@ function ClubGrid() {
 	return (
 		<div className='itemContainer'>
 			<h2>Düzenleyenler</h2>
+
 			<div className='gridContainer'>
 				<Grid container justifyContent={'center'}>
 					<Grid sm={12} md={6} lg={4} item>
@@ -45,6 +46,7 @@ function ClubGrid() {
 					</Grid>
 				</Grid>
 			</div>
+			<h4>Logoların üzerine tıklayarak toplulukların sayfalarına ulaşabilirsiniz.</h4>
 		</div>
 	);
 }

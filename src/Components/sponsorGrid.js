@@ -29,6 +29,7 @@ function sponsorGrid() {
 					</Grid>
 				</Grid>
 			</div>
+			<h4>Logoların üzerine tıklayarak destekçierimizin sayfalarına ulaşabilirsiniz.</h4>
 		</div>
 	);
 }

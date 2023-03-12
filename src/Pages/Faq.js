@@ -17,7 +17,7 @@ function Faq() {
 						</div>
 					</Grid>
 					<Grid item sm={8}>
-						<h2>Sıkça Sorulan Sorualr</h2>
+						<h2>Sıkça Sorulan Sorular</h2>
 						<FaqBox
 							question='Game Jam nedir?'
 							answer='Game Jam, başlangıcında paylaşılan tema çerçevesinde katılımcıların
