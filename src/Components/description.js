@@ -29,7 +29,7 @@ function Description() {
 				</div>
 			</Grid>
 			<Grid item xs={12} sm={6} bgcolor='#D9D9D9'>
-				asdasd
+				<img className='afisBox' width={800} src='jamination6_afis.png' alt='afiş'></img>
 			</Grid>
 		</Grid>
 	);
