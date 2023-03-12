@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+.afisBox {
+	border: 4px solid white;
+	border-radius: 10%;
+}
+.metuBox {
+	margin-top: 60px;
+}
+.ünogBox {
+	margin-top: 60px;
+}
+.clubBoxImage:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
 .calendarEventText {
 	padding-left: 15px;
 	align-self: center;
@@ -111,7 +125,7 @@
 	font-weight: 700;
 	font-size: x-large;
 	line-height: 20px;
-	border: 2px solid rgb(32, 85, 85);
+	border: 2px solid black;
 	border-radius: 99px;
 	padding: 15px;
 	text-align: center;
@@ -182,10 +196,11 @@ h3 {
 	text-align: center;
 	letter-spacing: 0.1em;
 	text-transform: capitalize;
-	border: none;
+	border: 2px solid black;
 	text-align: center;
 }
 .pillBtnReversed {
+	border: 1px solid black;
 	font-size: large;
 	padding: 2.5vh;
 	padding-left: 4vh;

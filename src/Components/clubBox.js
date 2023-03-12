@@ -5,8 +5,9 @@ function ClubBox(props) {
 	return (
 		<div>
 			<h3>{props.text}</h3>
-			<div>
+			<div className={props.class}>
 				<img
+					className='clubBoxImage'
 					width={150}
 					src={props.source}
 					alt={props.text}
