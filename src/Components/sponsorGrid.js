@@ -7,7 +7,7 @@ function sponsorGrid() {
 	return (
 		<div className='itemContainer'>
 			<div className='gridContainer'>
-				<h2>DESTEKÇİLERİMİZ</h2>
+				<h2>Destekçilerimiz</h2>
 				<Grid container justifyContent={'center'}>
 					<Grid sm={12} md={6} lg={4} item>
 						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
