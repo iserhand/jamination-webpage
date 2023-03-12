@@ -9,22 +9,22 @@ function sponsorGrid() {
 			<div className='gridContainer'>
 				<h2>DESTEKÇİLERİMİZ</h2>
 				<Grid container justifyContent={'center'}>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
 				</Grid>

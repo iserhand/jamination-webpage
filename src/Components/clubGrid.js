@@ -9,38 +9,38 @@ function ClubGrid() {
 			<h2>Düzenleyenler</h2>
 			<div className='gridContainer'>
 				<Grid container justifyContent={'center'}>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<ClubBox
 							text='İTU OTG'
 							source={'otg_logo.png'}
 							href='https://linktr.ee/ituotg'
 						></ClubBox>
 					</Grid>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<ClubBox
 							class={'metuBox'}
 							text='METU GATES'
 							source={'metu_logo.png'}
 						></ClubBox>
 					</Grid>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<ClubBox text='DEU POG' source={'pog_logo.png'}></ClubBox>
 					</Grid>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<ClubBox
 							text='Marmara  OGK'
 							source={'marmara_logo.png'}
 							href='https://www.instagram.com/marmaraoyungelistirme/'
 						></ClubBox>
 					</Grid>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<ClubBox
 							text='Beikoz'
 							source={'beikoz_logo.png'}
 							href='https://linktr.ee/beikoz'
 						></ClubBox>
 					</Grid>
-					<Grid sm={4} item>
+					<Grid sm={12} md={6} lg={4} item>
 						<ClubBox class={'ünogBox'} text='ÜNOG' source={'unog_logo.png'}></ClubBox>
 					</Grid>
 				</Grid>
