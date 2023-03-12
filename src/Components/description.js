@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Description() {
 	return (
 		<Grid container>
-			<Grid item xs={12} sm={6}>
+			<Grid item xs={12} sm={12} md={6}>
 				<div className='description'>
 					<h1>Jamination 6</h1>
 					<div className='text'>

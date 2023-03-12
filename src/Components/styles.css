@@ -8,11 +8,7 @@
 	max-width: 90%;
 	max-height: 90%;
 }
-.afisBox {
-	width: 50%;
-	display: inline-block;
-	vertical-align: top;
-}
+
 .metuBox {
 	margin-top: 60px;
 }
@@ -287,6 +283,7 @@ h3 {
 		border-radius: 10%;
 		max-width: 90%;
 		max-height: 90%;
+		margin-top: 5vh;
 	}
 	.navBarMobile {
 		animation: growDown 300ms ease-in-out forwards;
