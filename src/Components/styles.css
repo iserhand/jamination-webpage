@@ -277,7 +277,7 @@ h3 {
 	font-weight: 300;
 	font-size: x-large;
 }
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 980px) {
 	.afisImg {
 		border: 4px solid white;
 		border-radius: 10%;
@@ -285,6 +285,8 @@ h3 {
 		max-height: 90%;
 		margin-top: 5vh;
 	}
+}
+@media screen and (max-width: 780px) {
 	.navBarMobile {
 		animation: growDown 300ms ease-in-out forwards;
 		display: flex;

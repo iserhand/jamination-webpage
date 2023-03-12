@@ -28,7 +28,7 @@ function Description() {
 					</div>
 				</div>
 			</Grid>
-			<Grid className='afisBox' item xs={12} sm={6}>
+			<Grid className='afisBox' xs={12} sm={12} md={6}>
 				<img className='afisImg' src='jamination6_afis.png' alt='afiş'></img>
 			</Grid>
 		</Grid>
