@@ -3,6 +3,7 @@ import { Grid } from '@mui/material';
 import FaqBox from '../Components/faqBox';
 function Faq() {
 	useEffect(() => {
+		window.scrollTo(0, 0);
 		document.title = 'SSS';
 	});
 

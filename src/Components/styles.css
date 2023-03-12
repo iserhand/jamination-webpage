@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+.descriptionHeader {
+	white-space: nowrap;
+	width: auto;
+	display: inline-block;
+}
 .homeButtonGroup {
 	margin-top: 15%;
 }
 .afisImg {
-	border: 4px solid white;
+	border: 4px solid orange;
 	border-radius: 10%;
 	max-width: 90%;
 	max-height: 90%;
@@ -191,6 +196,7 @@ h3 {
 	color: #1f2224;
 }
 .pillBtn {
+	font-family: 'Josefin Sans';
 	font-size: large;
 	padding: 2.5vh;
 	padding-left: 4vh;
@@ -204,6 +210,12 @@ h3 {
 	text-transform: capitalize;
 	border: 2px solid black;
 	text-align: center;
+
+	font-family: 'Amatic SC';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 120%;
 }
 .pillBtnReversed {
 	border: 1px solid black;
