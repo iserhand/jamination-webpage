@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import './styles.css';
 import { CSSTransition } from 'react-transition-group';
@@ -24,11 +24,11 @@ function Navbar() {
 					<NavLink
 						className='navItem'
 						active='active'
-						to='/sponsor'
+						to='/destekcilerimiz'
 						smooth='true'
 						spy='true'
 					>
-						SPONSORLAR
+						DESTEKÇİLERİMİZ
 					</NavLink>
 					<NavLink
 						className='navItem'
@@ -50,15 +50,6 @@ function Navbar() {
 						spy='true'
 					>
 						İLETİŞİM
-					</NavLink>
-					<NavLink
-						className='navItem'
-						active='active'
-						to='/location'
-						smooth='true'
-						spy='true'
-					>
-						ULAŞIM
 					</NavLink>
 				</div>
 			</div>
@@ -92,11 +83,11 @@ function Navbar() {
 									onClick={clickOutside}
 									className='navItem'
 									active='active'
-									to='/sponsor'
+									to='/destekcilerimiz'
 									smooth='true'
 									spy='true'
 								>
-									SPONSORLAR
+									DESTEKÇİLERİMİZ
 								</NavLink>
 								<NavLink
 									onClick={clickOutside}
@@ -127,16 +118,6 @@ function Navbar() {
 									spy='true'
 								>
 									İLETİŞİM
-								</NavLink>
-								<NavLink
-									onClick={clickOutside}
-									className='navItem'
-									active='active'
-									to='/location'
-									smooth='true'
-									spy='true'
-								>
-									ULAŞIM
 								</NavLink>
 							</>
 						)}

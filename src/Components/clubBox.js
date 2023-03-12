@@ -14,6 +14,9 @@ function ClubBox(props) {
 						currentTarget.onerror = null; // prevents looping
 						currentTarget.src = 'https://placehold.jp/150x150.png';
 					}}
+					onClick={() => {
+						window.open(props.href, '_blank');
+					}}
 				></img>
 			</div>
 		</div>

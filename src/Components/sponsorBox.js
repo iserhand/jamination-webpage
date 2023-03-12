@@ -14,6 +14,7 @@ function sponsorBox(props) {
 				width={150}
 				height={150}
 			></img>
+			<h3>{props.text}</h3>
 		</div>
 	);
 }

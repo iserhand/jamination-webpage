@@ -11,7 +11,9 @@ function Faq() {
 			<div className='itemContainer'>
 				<Grid container justifyContent={'center'}>
 					<Grid item sm={12} md={2}>
-						<img src='kurbaga_deu.png' alt='Karakter' width={250}></img>
+						<div className='characterContainer'>
+							<img src='kurbaga_deu.png' alt='Karakter' width={250}></img>
+						</div>
 					</Grid>
 					<Grid item sm={8}>
 						<h2>Sıkça Sorulan Sorualr</h2>

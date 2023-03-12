@@ -3,7 +3,7 @@ import SponsorGrid from '../Components/sponsorGrid';
 function Sponsor() {
 	useEffect(() => {
 		window.scrollTo(0, 0);
-		document.title = 'Sponsorlarımız';
+		document.title = 'Destekçilerimiz';
 	}, []);
 	return (
 		<div className='pageContainer'>

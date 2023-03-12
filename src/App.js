@@ -15,7 +15,7 @@ function App() {
 				<Route path='/' element={<Layout />}>
 					<Route index element={<Home />} />
 					<Route path='/org' element={<Organisation />} />
-					<Route path='/sponsor' element={<Sponsor />} />
+					<Route path='/destekcilerimiz' element={<Sponsor />} />
 					<Route path='/calendar' element={<Calendar />} />
 					<Route path='/contact' element={<Contact />} />
 					<Route path='/location' element={<Location />} />

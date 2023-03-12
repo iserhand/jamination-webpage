@@ -1,31 +1,39 @@
-.pageContainer{
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 5%;
+.pageContainer {
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 5%;
 }
-.homeContainer{
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.homeContainer {
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
-.homeButtonGroup{
-    margin-top: 25px;
-    display: flex;
+.homeButtonGroup {
+	margin-top: 25px;
+	display: flex;
 
-    gap: 25px;
+	gap: 25px;
 }
-.errorContainer{
-    margin-top: 15%;
-    text-align: center;
+.errorContainer {
+	margin-top: 15%;
+	text-align: center;
 }
-.descriptionWithCountdown{
-    align-items: center;
-    justify-content:center;
+.descriptionWithCountdown {
+	align-items: center;
+	justify-content: center;
 }
-.bottomCharacterContainer{
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+.bottomCharacterContainer {
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+@media screen and (max-width: 780px) {
+	.bottomCharacterContainer {
+		height: 100%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
 }

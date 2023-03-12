@@ -3,9 +3,35 @@ import './styles.css';
 
 function PillButton(props) {
 	if (!props.reverseColor) {
-		return <button className='pillBtn'>{props.text}</button>;
+		if (props.href) {
+			return (
+				<button
+					className='pillBtn'
+					onClick={() => {
+						window.open(props.href, '_blank');
+					}}
+				>
+					{props.text}
+				</button>
+			);
+		} else {
+			return <button className='pillBtn'>{props.text}</button>;
+		}
 	} else {
-		return <button className='pillBtnReversed'>{props.text}</button>;
+		if (props.href) {
+			return (
+				<button
+					className='pillBtn'
+					onClick={() => {
+						window.open(props.href, '_blank');
+					}}
+				>
+					{props.text}
+				</button>
+			);
+		} else {
+			return <button className='pillBtn'>{props.text}</button>;
+		}
 	}
 }
 

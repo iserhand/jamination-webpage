@@ -10,7 +10,11 @@ function ClubGrid() {
 			<div className='gridContainer'>
 				<Grid container justifyContent={'center'}>
 					<Grid sm={4} item>
-						<ClubBox text='İTU OTG' source={'otg_logo.png'}></ClubBox>
+						<ClubBox
+							text='İTU OTG'
+							source={'otg_logo.png'}
+							href='https://linktr.ee/ituotg'
+						></ClubBox>
 					</Grid>
 					<Grid sm={4} item>
 						<ClubBox text='METU GATES' source={'metu_logo.png'}></ClubBox>
@@ -19,10 +23,18 @@ function ClubGrid() {
 						<ClubBox text='DEU POG' source={'pog_logo.png'}></ClubBox>
 					</Grid>
 					<Grid sm={4} item>
-						<ClubBox text='Marmara  OGK' source={'ogk_logo.png'}></ClubBox>
+						<ClubBox
+							text='Marmara  OGK'
+							source={'ogk_logo.png'}
+							href='https://www.instagram.com/marmaraoyungelistirme/'
+						></ClubBox>
 					</Grid>
 					<Grid sm={4} item>
-						<ClubBox text='Beikoz' source={'beikoz_logo.png'}></ClubBox>
+						<ClubBox
+							text='Beikoz'
+							source={'beikoz_logo.png'}
+							href='https://linktr.ee/beikoz'
+						></ClubBox>
 					</Grid>
 					<Grid sm={4} item>
 						<ClubBox text='ÜNOG' source={'unog_logo.png'}></ClubBox>

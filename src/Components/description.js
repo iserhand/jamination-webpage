@@ -1,7 +1,7 @@
 import Grid from '@mui/material/Grid';
 import PillButton from './pillButton';
 import './styles.css';
-
+import { Link } from 'react-router-dom';
 function Description() {
 	return (
 		<Grid container>
@@ -17,8 +17,14 @@ function Description() {
 						eğleneceğimiz bu etkinliğe tüm oyun geliştiricileri bekliyoruz!
 					</div>
 					<div className='homeButtonGroup'>
-						<PillButton text='Hemen Başvur' reverseColor={false}></PillButton>
-						<PillButton text='Sorum Var' reverseColor={true}></PillButton>
+						<PillButton
+							text='Hemen Başvur'
+							href='https://forms.gle/2p2BvZC8GAQMaPxg6'
+							reverseColor={false}
+						></PillButton>
+						<Link to='/faq'>
+							<PillButton text='Sorum Var' reverseColor={true}></PillButton>
+						</Link>
 					</div>
 				</div>
 			</Grid>
