@@ -10,17 +10,17 @@ const faqData = [
 	{
 		id: 2,
 		question: "Game Jam'e kimler katılabilir?",
-		answer: 'Tecrübeli tecrübesiz oyun geliştirmeye ilgisi olan programlama, müzik, ses, görsel tasarım, çizim, modelleme veya oyun geliştirmeyle alakalı herhangi bir dalda çalışmak isteyen herkes katılabilir.',
+		answer: 'Tecrübeli veya tecrübesiz oyun geliştirmeye ilgisi olan programlama, müzik, ses, görsel tasarım, çizim, modelleme veya oyun geliştirmeyle alakalı herhangi bir dalda çalışmak isteyen herkes katılabilir.',
 	},
 	{
 		id: 3,
-		question: "Oyun geliştirme ile ilgili deneyimim yok gene de Jam'e katılabilir miyim?",
-		answer: 'Evet, oyun geliştirmeyle alakalı deneyiminiz olmasa bile ilginiz varsa katılabilirsiniz. Sadece diğer katılımcılara göre biraz daha zorlu bir Game Jam süreci geçirirsiniz. Game Jam sırasında diğer katılımcılardan yardım alarak veya internetten videolar ve kurslar izleyerek ilk oyununuzu yapabilirsiniz.',
+		question: "Oyun geliştirme ile ilgili deneyimim yok yine de Jam'e katılabilir miyim?",
+		answer: 'Evet, oyun geliştirmeyle alakalı deneyiminiz olmasa bile ilginiz varsa katılabilirsiniz. Sadece diğer katılımcılara göre biraz daha zorlu bir Game Jam süreci geçirebilirsiniz. Game Jam sırasında diğer katılımcılardan yardım alarak veya internetten videolar ve kurslar izleyerek ilk oyununuzu yapabilirsiniz.',
 	},
 	{
 		id: 4,
-		question: "İlk defa Jam'e katılacağım bir sorun olur mu?",
-		answer: "Hayır, ilk defa katılmakta bir sorun olmaz. Kısıtlı sürede sıkı çalışma koşullarını deneyimleme şansı yakalayabilirsiniz, bu sırada da bolca tecrübe edinmiş olursunuz. Birden fazla kez Game Jam'e katılmış kişilerle tanışıp tecrübelerinden faydalana dabilirsiniz.",
+		question: "İlk defa Jam'e katılacağım, bir sorun olur mu?",
+		answer: "Hayır, ilk defa katılmakta bir sorun olmaz. Kısıtlı sürede sıkı çalışma koşullarını deneyimleme şansı yakalayabilir, bu sırada da bolca tecrübe edinebilirsiniz. Birden fazla Game Jam'e katılmış kişilerle tanışıp tecrübelerinden faydalanma fırsatı da yakalayabilirsiniz.",
 	},
 	{
 		id: 5,
