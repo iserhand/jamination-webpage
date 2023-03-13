@@ -21,7 +21,7 @@ function PillButton(props) {
 		if (props.href) {
 			return (
 				<button
-					className='pillBtn'
+					className='pillBtnReversed'
 					onClick={() => {
 						window.open(props.href, '_blank');
 					}}
@@ -30,7 +30,7 @@ function PillButton(props) {
 				</button>
 			);
 		} else {
-			return <button className='pillBtn'>{props.text}</button>;
+			return <button className='pillBtnReversed'>{props.text}</button>;
 		}
 	}
 }
