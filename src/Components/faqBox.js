@@ -25,7 +25,7 @@ const faqData = [
 	{
 		id: 5,
 		question: 'Game Jam ne kadar sürecek?',
-		answer: "Game Jam 7 Nisan Cuma günü 19.00'dan 9 Nisan Pazar günü saat 19.00'a kadar toplam 48 saat sürecektir.",
+		answer: "Game Jam 7 Nisan Cuma günü 19.00'da başlayıp, 9 Nisan Pazar günü saat 19.00'a kadar toplam 48 saat sürecektir.",
 	},
 	{
 		id: 6,
@@ -35,7 +35,7 @@ const faqData = [
 	{
 		id: 7,
 		question: 'Sadece eğitimlere katılabilir miyim?',
-		answer: "Evet Jamination 6 etkinliğine sadece eğitimler için katılabilirsiniz ancak eğitimlerden sonra Game Jam'e katılıp öğrendiklerinizi denemeniz ve oyun geliştirmek için çabalamanız tavsiye edilir.",
+		answer: "Evet Jamination 6 etkinliğine sadece eğitimler için katılabilirsiniz, ancak eğitimlerden sonra Game Jam'e katılıp öğrendiklerinizi denemeniz ve oyun geliştirmek için çabalamanız tavsiye edilir.",
 	},
 	{
 		id: 8,
@@ -45,7 +45,7 @@ const faqData = [
 	{
 		id: 9,
 		question: 'Tek başıma katılabilir miyim?',
-		answer: 'Evet, tek başınıza katılıp kendi sınırlarınızı zorlayabilirsiniz. Takım kurma gibi bir zorunluluk bulunmamaktadır. Gene de diğer katılımcılarla etkileşim halinde bulunup sosyalleşmeniz Game Jam deneyiminiz için daha faydalı olacaktır.',
+		answer: 'Evet, tek başınıza katılıp kendi sınırlarınızı zorlayabilirsiniz. Takım kurma gibi bir zorunluluk bulunmamaktadır. Yine de diğer katılımcılarla etkileşim halinde bulunup sosyalleşmeniz Game Jam deneyiminiz için daha faydalı olacaktır.',
 	},
 	{
 		id: 10,
@@ -59,7 +59,7 @@ const faqData = [
 	},
 	{
 		id: 12,
-		question: 'Daha farklı bir konuda sorum var. Size nasıl ulaşabilirim?',
+		question: 'Daha farklı bir konuda sorum var, size nasıl ulaşabilirim?',
 		answer: 'Bize Instagram hesabımız jamination.official adresimizden, info@jamination.org e-mail adresimizden veya Jamination Discord sunucumuzdaki Topluluk Yetkilileri kısmında ulaşabilirsiniz.',
 	},
 ];
