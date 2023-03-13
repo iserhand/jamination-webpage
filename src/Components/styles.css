@@ -1,19 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 .nameContainer {
-	color: inherit;
 	font-style: italic;
 	font-weight: bold;
 	text-decoration: none;
 }
 .footerContainer {
-	white-space: 'pre-wrap';
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	background-color: #e9947a;
+	padding: 20px;
+}
+
+.footerText {
 	color: white;
-	height: 8vh;
-	width: 100%;
-	background: #e9947a;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.linkContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.nameContainer {
+	font-size: 14px;
+	color: inherit;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
 }
 .sponsorImg:hover {
 	cursor: pointer;
