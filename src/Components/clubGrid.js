@@ -22,10 +22,15 @@ function ClubGrid() {
 							class={'metuBox'}
 							text='METU GATES'
 							source={'metu_logo.png'}
+							href='https://www.instagram.com/metugates/'
 						></ClubBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
-						<ClubBox text='DEU POG' source={'pog_logo.png'}></ClubBox>
+						<ClubBox
+							text='DEU POG'
+							source={'pog_logo.png'}
+							href={'https://linktr.ee/deupog'}
+						></ClubBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
 						<ClubBox
@@ -42,7 +47,12 @@ function ClubGrid() {
 						></ClubBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
-						<ClubBox class={'ünogBox'} text='ÜNOG' source={'unog_logo.png'}></ClubBox>
+						<ClubBox
+							class={'ünogBox'}
+							text='ÜNOG'
+							source={'unog_logo.png'}
+							href={'https://unog.dev/'}
+						></ClubBox>
 					</Grid>
 				</Grid>
 			</div>
