@@ -1,3 +1,26 @@
+.contactLogo:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.contactLogo {
+	width: 11vw;
+}
+.contactPage {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.contactLogoContainer {
+	padding: 6vw;
+}
+.contactLogoGroup {
+	display: flex;
+	justify-content: space-between;
+}
 .pageContainer {
 	margin-right: 10%;
 	margin-left: 10%;

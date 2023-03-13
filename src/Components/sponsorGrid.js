@@ -10,26 +10,26 @@ function sponsorGrid() {
 				<h2>Destekçilerimiz</h2>
 				<Grid container justifyContent={'center'}>
 					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
+						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
+						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
+						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
+						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
+						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'ABCDE'} source={'questionmark.png'}></SponsorBox>
+						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
 					</Grid>
 				</Grid>
 			</div>
-			<h4>Logoların üzerine tıklayarak destekçierimizin sayfalarına ulaşabilirsiniz.</h4>
+			<h4>Logoların üzerine tıklayarak destekçilerimizin sayfalarına ulaşabilirsiniz.</h4>
 		</div>
 	);
 }

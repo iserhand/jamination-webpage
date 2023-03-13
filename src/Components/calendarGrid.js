@@ -7,32 +7,57 @@ function CalendarGrid() {
 			<div className='calendarHeader'>Nisan 2023</div>
 			<CalendarRow
 				dayText={'Pazartesi'}
-				dayNumber={'2'}
+				dayNumber={'3'}
 				calendarEventList={[
-					{ text: 'Jam Başlangıcı ve tema açıklanamsı', time: '13:00' },
-					{ text: 'Jam Başlangıcı ve tema açıklanamsı', time: '16:30' },
-					{ text: 'Jam Başlangıcı ve tema açıklanamsı', time: '19:40' },
+					{ text: 'Atölye', time: '18.00-20.00 ' },
+					{ text: 'Atölye', time: ' 21.00-23.00' },
 				]}
 			></CalendarRow>
 			<CalendarRow
-				dayText={'Pazartesi'}
-				dayNumber={'2'}
-				calendarEventList={['a', 'b', 'c', 'd', 'e']}
+				dayText={'Salı'}
+				dayNumber={'4'}
+				calendarEventList={[
+					{ text: 'Atölye', time: '18.00-20.00 ' },
+					{ text: 'Atölye', time: ' 21.00-23.00' },
+				]}
 			></CalendarRow>
 			<CalendarRow
-				dayText={'Pazartesi'}
-				dayNumber={'2'}
-				calendarEventList={['a', 'b', 'c', 'd', 'e']}
+				dayText={'Çarşamba'}
+				dayNumber={'5'}
+				calendarEventList={[
+					{ text: 'Atölye', time: '18.00-20.00 ' },
+					{ text: 'Atölye', time: ' 21.00-23.00' },
+				]}
 			></CalendarRow>
 			<CalendarRow
-				dayText={'Pazartesi'}
-				dayNumber={'2'}
-				calendarEventList={['a', 'b', 'c', 'd', 'e']}
+				dayText={'Perşembe'}
+				dayNumber={'6'}
+				calendarEventList={[
+					{ text: 'Atölye', time: '18.00-20.00 ' },
+					{ text: 'Atölye', time: ' 21.00-23.00' },
+				]}
 			></CalendarRow>
 			<CalendarRow
-				dayText={'Pazartesi'}
-				dayNumber={'2'}
-				calendarEventList={['a', 'b', 'c', 'd', 'e']}
+				dayText={'Cuma'}
+				dayNumber={'7'}
+				calendarEventList={[
+					{ text: 'Gam Jam Gazileri İle Sohbet', time: '16.30' },
+					{ text: 'Açılış Sunumu', time: '18.00' },
+				]}
+			></CalendarRow>
+
+			<CalendarRow
+				dayText={'Cumartesi'}
+				dayNumber={'8'}
+				calendarEventList={[{ text: 'Oyun Geliştirme', time: 'Tüm gün' }]}
+			></CalendarRow>
+			<CalendarRow
+				dayText={'Pazar'}
+				dayNumber={'9'}
+				calendarEventList={[
+					{ text: 'Game Jam Bitişi', time: '18:00' },
+					{ text: 'Oyun Sunumları', time: '19.00 - 22.00' },
+				]}
 			></CalendarRow>
 		</div>
 	);

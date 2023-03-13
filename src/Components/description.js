@@ -11,7 +11,7 @@ function Description() {
 					<div className='text'>
 						Türkiye'deki oyun geliştiricileri bir araya getirip, kendi aralarında
 						etkileşim kurup, birbirlerine katkı sağlayabilecekleri bir Game Jam
-						etkinliği olan Jamination 6 bu yıl İTÜ OTG, ÜNOG, METU GATES, DEU POG,
+						etkinliği olan Jamination 6 bu yıl İTÜ OTG, METU GATES, DEU POG, ÜNOG,
 						Beikoz Oyun Geliştirme Topluluğu ve Marmara OGK iş birliği ile çevrimiçi
 						olarak 3-9 Nisan tarihleri arasında gerçekleşecektir. 48 saat boyunca oyun
 						geliştirip eğleneceğimiz bu etkinliğe tüm oyun geliştiricileri bekliyoruz!
