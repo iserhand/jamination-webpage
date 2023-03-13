@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+.accordion-item {
+	margin-top: 2vh;
+}
 .faqQuestion {
 	font-weight: bold;
+	font-size: 20px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: row-reverse;
 }
 
 .nameContainer {
@@ -374,6 +382,17 @@ h3 {
 	.navContainer {
 		display: none;
 	}
+}
+.faqGrowButton {
+	background: url('https://api.iconify.design/material-symbols/keyboard-arrow-down-rounded.svg?width=36&height=36')
+		no-repeat center center / contain;
+
+	content: url('https://api.iconify.design/material-symbols/keyboard-arrow-down-rounded.svg?width=36&height=36');
+}
+.faqShrinkButton {
+	background: url('https://api.iconify.design/material-symbols/keyboard-arrow-down-rounded.svg?width=36&height=36&rotate=180deg')
+		no-repeat center center / contain;
+	content: url('https://api.iconify.design/material-symbols/keyboard-arrow-down-rounded.svg?width=36&height=36&rotate=180deg');
 }
 @keyframes growDown {
 	0% {
