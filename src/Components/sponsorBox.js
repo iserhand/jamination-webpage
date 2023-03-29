@@ -14,6 +14,9 @@ function sponsorBox(props) {
 				}}
 				width={150}
 				height={150}
+				onClick={() => {
+					window.open(props.href, '_blank');
+				}}
 			></img>
 			<h3>{props.text}</h3>
 		</div>

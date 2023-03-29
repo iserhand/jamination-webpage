@@ -10,13 +10,25 @@ function sponsorGrid() {
 				<h2>Destekçilerimiz</h2>
 				<Grid container justifyContent={'center'}>
 					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
+						<SponsorBox
+							text={'Taleworlds'}
+							source={'taleworlds.png'}
+							href={'https://www.taleworlds.com/'}
+						></SponsorBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
+						<SponsorBox
+							text={'Leartes'}
+							source={'leartes.png'}
+							href={'https://leartesstudios.com/'}
+						></SponsorBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
+						<SponsorBox
+							text={'İTU MTK'}
+							source={'itumtk.png'}
+							href={'https://linktr.ee/itumtk'}
+						></SponsorBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
 						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>

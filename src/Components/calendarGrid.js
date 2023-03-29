@@ -9,7 +9,7 @@ function CalendarGrid() {
 				dayText={'Pazartesi'}
 				dayNumber={'3'}
 				calendarEventList={[
-					{ text: 'Atölye', time: '18.00-20.00 ' },
+					{ text: 'Atölye', time: '17.30-19.30 ' },
 					{ text: 'Atölye', time: ' 21.00-23.00' },
 				]}
 			></CalendarRow>
@@ -17,7 +17,7 @@ function CalendarGrid() {
 				dayText={'Salı'}
 				dayNumber={'4'}
 				calendarEventList={[
-					{ text: 'Atölye', time: '18.00-20.00 ' },
+					{ text: 'Atölye', time: '17.30-19.30 ' },
 					{ text: 'Atölye', time: ' 21.00-23.00' },
 				]}
 			></CalendarRow>
@@ -25,7 +25,7 @@ function CalendarGrid() {
 				dayText={'Çarşamba'}
 				dayNumber={'5'}
 				calendarEventList={[
-					{ text: 'Atölye', time: '18.00-20.00 ' },
+					{ text: 'Atölye', time: '17.30-19.30 ' },
 					{ text: 'Atölye', time: ' 21.00-23.00' },
 				]}
 			></CalendarRow>
@@ -33,7 +33,7 @@ function CalendarGrid() {
 				dayText={'Perşembe'}
 				dayNumber={'6'}
 				calendarEventList={[
-					{ text: 'Atölye', time: '18.00-20.00 ' },
+					{ text: 'Atölye', time: '17.30-19.30 ' },
 					{ text: 'Atölye', time: ' 21.00-23.00' },
 				]}
 			></CalendarRow>
