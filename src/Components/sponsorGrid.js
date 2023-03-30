@@ -31,10 +31,20 @@ function sponsorGrid() {
 						></SponsorBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
+						<SponsorBox
+							text={'Espale Studios'}
+							source={'espalestudios.png'}
+							href={'http://www.espalestudios.com/'}
+						></SponsorBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
+						<SponsorBox
+							text={'Team Machiavelli'}
+							source={'TeamMachiavelli.png'}
+							href={
+								'https://store.steampowered.com/app/1724770/Castle_Of_Alchemists/'
+							}
+						></SponsorBox>
 					</Grid>
 					<Grid sm={12} md={6} lg={4} item>
 						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>

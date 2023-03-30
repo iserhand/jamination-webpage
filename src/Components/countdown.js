@@ -3,7 +3,7 @@ import CountdownPill from './countdownPill';
 import './styles.css';
 
 function Countdown() {
-	const jaminationDate = new Date('April 3, 2023 18:00:00');
+	const jaminationDate = new Date('April 2, 2023 18:00:00');
 	var newDate = new Date().getTime();
 	var diff = jaminationDate - newDate;
 	const [timer, setTimer] = useState({
