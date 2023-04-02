@@ -46,9 +46,6 @@ function sponsorGrid() {
 							}
 						></SponsorBox>
 					</Grid>
-					<Grid sm={12} md={6} lg={4} item>
-						<SponsorBox text={'-'} source={'questionmark.png'}></SponsorBox>
-					</Grid>
 				</Grid>
 			</div>
 			<h4>Logoların üzerine tıklayarak destekçilerimizin sayfalarına ulaşabilirsiniz.</h4>

@@ -35,7 +35,7 @@ function CalendarGrid() {
 				dayNumber={'5'}
 				calendarEventList={[
 					{
-						text: 'Oyunlar İçin Ses Tasarımı (Madrooster Game AudioLab)',
+						text: 'Atöyle',
 						time: '17.30-19.30 ',
 					},
 					{
