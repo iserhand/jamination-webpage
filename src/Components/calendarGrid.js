@@ -35,7 +35,7 @@ function CalendarGrid() {
 				dayNumber={'5'}
 				calendarEventList={[
 					{
-						text: 'Atöyle',
+						text: '-',
 						time: '17.30-19.30 ',
 					},
 					{
