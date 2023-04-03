@@ -6,6 +6,9 @@ function Countdown() {
 	const jaminationDate = new Date('April 7, 2023 18:00:00');
 	var newDate = new Date().getTime();
 	var diff = jaminationDate - newDate;
+	if (diff < 0) {
+		diff = 0;
+	}
 	const [timer, setTimer] = useState({
 		days: Math.ceil(diff / (1000 * 60 * 60 * 24)),
 		hours: Math.floor((diff / (1000 * 60 * 60)) % 24),
@@ -17,6 +20,7 @@ function Countdown() {
 			// eslint-disable-next-line react-hooks/exhaustive-deps
 			diff = jaminationDate - newDate;
 			if (diff < 0) {
+				setTimer({ days: 0, hours: 0, minutes: 0, sec: 0 });
 				return;
 			}
 			var newTimer = {
