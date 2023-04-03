@@ -62,7 +62,7 @@ function CalendarGrid() {
 				dayText={'Cuma'}
 				dayNumber={'7'}
 				calendarEventList={[
-					{ text: 'Gam Jam Gazileri İle Sohbet', time: '16.30' },
+					{ text: 'Game Jam Gazileri İle Sohbet', time: '16.30' },
 					{ text: 'Açılış Sunumu ve TEMA Açıklanışı', time: '18.00' },
 				]}
 			></CalendarRow>

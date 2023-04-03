@@ -3,7 +3,7 @@ import CountdownPill from './countdownPill';
 import './styles.css';
 
 function Countdown() {
-	const jaminationDate = new Date('April 2, 2023 17:30:00');
+	const jaminationDate = new Date('April 7, 2023 18:00:00');
 	var newDate = new Date().getTime();
 	var diff = jaminationDate - newDate;
 	const [timer, setTimer] = useState({
@@ -16,6 +16,9 @@ function Countdown() {
 		const interval = setInterval(() => {
 			// eslint-disable-next-line react-hooks/exhaustive-deps
 			diff = jaminationDate - newDate;
+			if (diff < 0) {
+				return;
+			}
 			var newTimer = {
 				days: Math.ceil(diff / (1000 * 60 * 60 * 24)),
 				hours: Math.floor((diff / (1000 * 60 * 60)) % 24),
