@@ -46,6 +46,20 @@ function sponsorGrid() {
 							}
 						></SponsorBox>
 					</Grid>
+					<Grid sm={12} md={6} lg={4} item>
+						<SponsorBox
+							text={'MadRooster'}
+							source={'MadRooster.png'}
+							href={'https://tr.madrooster.co/'}
+						></SponsorBox>
+					</Grid>
+					<Grid sm={12} md={6} lg={4} item>
+						<SponsorBox
+							text={'SwishSwoosh'}
+							source={'SwishSwoosh.png'}
+							href={'https://www.swish-swoosh.com/collections/all-sound-packs'}
+						></SponsorBox>
+					</Grid>
 				</Grid>
 			</div>
 			<h4>Logoların üzerine tıklayarak destekçilerimizin sayfalarına ulaşabilirsiniz.</h4>
